@@ -38,6 +38,7 @@ class Login extends React.Component {
   render() {
     return (
       <div>
+        <h2>Login</h2>
         {/* {this.props.loginError && <p>Error on login, try again</p>} */}
         <form onSubmit={this.handleLogin}>
           <label htmlFor="">username</label>          

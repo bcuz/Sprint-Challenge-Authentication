@@ -36,6 +36,7 @@ class Register extends React.Component {
     return (
       <div>
         {/* {this.props.loginError && <p>Error on login, try again</p>} */}
+        <h2>Register</h2>
         <form onSubmit={this.handleRegister}>
           <label htmlFor="">username</label>
           <input
